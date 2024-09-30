@@ -27,3 +27,13 @@ Programação feita dentro da própria página HTML usando a tg 'script', princi
 Programação feita dentro de arquivo JavaScript exclusivos (possuem a extensão **.js**), usada principalmente quando queremos reutilizar scripts entre páginas HTML também é feita usando a tag 'script'. É a forma mais recomendada.
 
 **Obs.:** normalmente a programação feita (ou ligada) **NO FINAL** da página HTML, portanto, pouco antes do fevhamento '</body>'
+
+
+
+---
+
+## Sobre Arrays
+
+Arrays são estruturas de dados **indexados**, também conhecidos comos **vetores** ou **matrizes**.
+
+Na prática, um array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/índice do arry.
