@@ -47,3 +47,21 @@ Na prática, um array é uma lista de dados sequenciais, e cada dado é armazena
 Objetos também são estrutura de dados só que **não-indexados** ou seja, o acesso dos dados é feito de forma direferente do que vimos nos arrays. No objeto, nós acessamos através de **propriedades** e **valores** declarados dentro do objeto.
 
 Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real.
+
+---
+
+## Sobre Condicionais 
+
+Sãso estruturas/comandos que permitem analisar uma ou mais condições dentro de aplicação.
+
+De acordo com o resultado desta análise, podendo ser **verdadeira/true** ou **falsa/false**, a aplicação poderá fazer coisas diferentes.
+
+### Operadores opcionais 
+Ao trabalhar com condicionais, é comum utilizar operações relacionadas para comparação dentro das condições. Os operadores mais comuns são:
+
+- Maior que         >
+- Menor que         <
+- Maior ou igual    >=
+- Menor ou igual    <=
+- Igualdade         ==
+- Doferença         !=
