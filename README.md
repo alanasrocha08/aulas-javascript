@@ -65,3 +65,11 @@ Ao trabalhar com condicionais, é comum utilizar operações relacionadas para c
 - Menor ou igual    <=
 - Igualdade         ==
 - Doferença         !=
+
+---
+
+## Sobre Comandos de repetição
+
+São estruturas/comandos que permitem a execução repetidas vezes de uma ou mais ações/comandos/operções. Também conhecidos com **loops** ou **laços de repetição**
+
+A quatidade de vezes que o loop será executado dependerá de alguma lógica ou condição definida pelo programador ou pelo sistema/aplicação. Também é comum que para que o loop pare de executar, seja definida uma variável de controle de repetoção. 
