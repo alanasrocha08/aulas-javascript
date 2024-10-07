@@ -73,3 +73,15 @@ Ao trabalhar com condicionais, é comum utilizar operações relacionadas para c
 São estruturas/comandos que permitem a execução repetidas vezes de uma ou mais ações/comandos/operções. Também conhecidos com **loops** ou **laços de repetição**
 
 A quatidade de vezes que o loop será executado dependerá de alguma lógica ou condição definida pelo programador ou pelo sistema/aplicação. Também é comum que para que o loop pare de executar, seja definida uma variável de controle de repetoção. 
+
+---
+
+## Sobre DOM
+
+Funções de acesso e manipulação do DOM 
+
+- querySelector() é uma função para selecionar um ÚNICO elemento na página (DOM).
+
+- querySelectorall () é uma função para selecionar vários elementos na página (DOM).
+
+Nos dois casos, a seleção é feita usando seletores comuns ao que fazemos no CSS.
