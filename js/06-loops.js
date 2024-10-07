@@ -98,8 +98,5 @@ let clientes = [
 ];
 
 for (const cliente of clientes) {
-    // console.log(cliente);
-    console.log(`Cliente $[0]`);
-    
-
+    console.log(`- Cliente: ${cliente.nome}, id: ${cliente.identificador}`);
 }
