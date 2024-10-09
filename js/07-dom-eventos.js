@@ -31,11 +31,58 @@ for (const link of links) {
   }
 
   /* Manipulando Evendos*/ 
-  const ex1 = document.querySelector ("#exemplo1");
+  const ex1 = document.querySelector ("#exemplo01");
+
+  /*Poderíamos usar a função getElementById em vez do querySelector. A diferença é que ela só funciona para seleção através do ID. Obs: ao usa-la NÃO COLOQUE #.*/
+  //const ex1 = document.getElementById ("exemplo01")
   const msg = document.querySelector("#mensagem");
+
+  const pagina = document.querySelector ("body");
+
+/*Função Ouvinte de Evento (Event Listener)
+aplicando ao elemento ALVO do evento desejado ("click") e uma função para exercutar ações a partir do eventos. Obs: esta fincção, é considerada do tipo "anônima" e é conehcida como "callback".*/
   ex1.addEventListener("click", function(){
-    msg.innerHTML = "Olá😜!"
-  });
+    /*Acessamos o parágrafo vazio e colocamos um conteúdo dentro dele*/
+    msg.innerHTML = "Olá 🌍!";
+
+    /*Modificar a página alterando a fonte (CSS via JS)*/
+    pagina.style.fontFamily = "Verdana";
+});
+
+/*Ouvinte de evento para voltar ao normal (sem texto no parágrafo e com fonte padrão na página. O evento ocorrerá ao clicar DUAS vezes no parágrafo da mensagem.*/
+msg.addEventListener("dbclick", function(){
+  msg.innerHTML = ""; //removendo o conteúdo do parágrafo
+  pagina.style.fontFamily = "initial"; //voltando para a fonte padrão
+});
+ 
+/*Exemplo 02: modo noturno*/
+const botaoAtivar = document.querySelector("#ativar");
+botaoAtivar.addEventListener("click", function(){
+  /*Usamos o toggles do classList para alterar a aplicação/remoção da classe "noturno". Na prática, vira um /liga/desliga.*/
+  pagina.classList.toggle("noturno");
+
+  /*DESAFIO!! Trocar o texto do botão. Se a página estiver com a classe "noturno" aplicada, o botão deve nostrar a palavra "Desativar". Caso contrário, deve mostrar a paravra "Ativar". Use if/else.*/
+
+    if (pagina.classList.contains("noturno")) {
+        botaoAtivar.textContent = "Desativar";
+    } else {
+        botaoAtivar.textContent = "Ativar";
+    }
+});
+
+/*Sbre o duplo sinal de igual*/
+let a = "10"; //TEXTO
+let b = 10; //NÚMERO
+let resultado = a === b;
+console.log (resultado);
+
+// == compara VALORES
+// === compara VALORES E TIPO DE DADO
+
+
+
+
+ 
 
 
 
